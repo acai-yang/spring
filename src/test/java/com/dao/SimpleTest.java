@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * DESC
+ * DESC 测试
  *
  * @author YangMingCai
  * @date 2023年02月16日 9:56
@@ -30,6 +30,7 @@ public class SimpleTest {
         user.setAge(28);
 
         int i = userDao.addUser(user);
+        System.out.println(i);
         System.out.println(i);
     }
 
