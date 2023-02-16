@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec95019f-5311-48b6-a39c-03d7fe9407e3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="625349a4-6942-4368-ab4c-5723add84fc8" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\APP\idea\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\APP\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2LLpP4xs2w3M3pkoxjvfghTZsky" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\阿才\Desktop\SR\代码\spring\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SimpleTest.insertTest">
+    <configuration name="APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.APP" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServicesTest.servicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.services" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.services.AccountServicesTest" />
+      <option name="METHOD_NAME" value="servicesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.dao.SimpleTest" />
+      <option name="METHOD_NAME" value="findAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.dao.SimpleTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimpleTest.insertTest" />
+        <item itemvalue="JUnit.SimpleTest.findAllTest" />
+        <item itemvalue="JUnit.AccountServicesTest.servicesTest" />
+        <item itemvalue="Application.APP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec95019f-5311-48b6-a39c-03d7fe9407e3" name="Default Changelist" comment="" />
+      <created>1675660189819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675660189819</updated>
+      <workItem from="1675660191283" duration="4696000" />
+      <workItem from="1675912667872" duration="16713000" />
+      <workItem from="1676268217632" duration="6094000" />
+      <workItem from="1676336238698" duration="1416000" />
+      <workItem from="1676345067330" duration="9064000" />
+      <workItem from="1676508865398" duration="10321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="179" y="248" key="#SQL_Dialects" timestamp="1676511085832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="179" y="248" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1676511085832" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676510780398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1676510780398" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1676336888302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1676336888302" />
+    <state width="1493" height="465" key="GridCell.Tab.0.bottom" timestamp="1676518078745">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="465" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
+    <state width="1493" height="465" key="GridCell.Tab.0.center" timestamp="1676518078745">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="465" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
+    <state width="1493" height="465" key="GridCell.Tab.0.left" timestamp="1676518078745">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="465" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
+    <state width="1493" height="465" key="GridCell.Tab.0.right" timestamp="1676518078745">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="465" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1676361828109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1676361828109" />
+    <state x="490" y="154" width="576" height="540" key="StructurePopup" timestamp="1676336810722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="576" height="540" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1676336810722" />
+    <state x="294" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1675930121826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="294" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1675930121826" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1676336614857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1676336614857" />
+  </component>
+</project>

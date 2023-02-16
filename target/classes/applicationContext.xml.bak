@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+
+">
+
+
+    <context:component-scan base-package="com.acai"/>
+
+</beans>
+
+        <!--第一种：通过默认空参构造反射创建-->
+        <!--    <bean id="daoImp" class="com.acai.factory.DaoFactoryBean"/>-->
+
+
+        <!--依赖注入：setter注入简单类型-->
+        <!-- <bean id="user" class="com.acai.pojo.User">
+             <property name="name" value="acai"/>
+             <property name="age" value="18"/>
+         </bean>-->
+
+        <!--   &lt;!&ndash;构造器注入：引用类型&ndash;&gt;
+           <bean id="servicesImp" class="com.acai.services.ServicesImp">
+               <constructor-arg name="dao" ref="daoImp"/>
+               <constructor-arg name="user" ref="user"/>
+           </bean>-->
+
+        <!--构造器注入：引用类型-->
+        <!-- <bean id="services" class="com.acai.services.ServicesImp">
+             <constructor-arg index="0" value="acai"/>
+             <constructor-arg index="1" value="18"/>
+         </bean>-->
+
+        <!--<bean id="dao" class="com.acai.dao.DaoImp"/>
+        <bean id="servicesImp" class="com.acai.services.ServicesImp" autowire="byType"/>-->
+
+        <!--管理DruidDataSource-->
+        <!--    <bean id="druidDataSource" class="com.alibaba.druid.pool.DruidDataSource">
+                <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/spring_db"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </bean>
+
+            <bean id="c3p0" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+                <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+                <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring_db"/>
+                <property name="user" value="root"/>
+                <property name="password" value="root"/>
+                <property name="maxConnectionAge" value="100"/>
+            </bean>-->
+
+
+        <!--1.开启context命名空间-->
+
+        <!--2.使用context命名空间加载Properties文件-->
+        <!--    <context:property-placeholder location="classpath*:jdbc.properties" system-properties-mode="NEVER"/>
+            <bean id="druidDataSource" class="com.alibaba.druid.pool.DruidDataSource">
+                <property name="driverClassName" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </bean>-->
+
