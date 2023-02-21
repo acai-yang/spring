@@ -3,8 +3,61 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec95019f-5311-48b6-a39c-03d7fe9407e3" name="Default Changelist" comment="" />
+    <list default="true" id="ec95019f-5311-48b6-a39c-03d7fe9407e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/APP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/config/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/dao/UserDao2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mybatis/service/impl/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MyBatis_Config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyBatis_Config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dao/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dao/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/NrdpKafkaConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/NrdpKafkaConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/NrdpKafkaConsumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kafka/NrdpKafkaConsumer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybatis/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybatis/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mybatis/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mybatis/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/APP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/APP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/config/JDBCConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/config/JDBCConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/dao/DaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/dao/DaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/dao/DaoImp2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/dao/DaoImp2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/dao/Mybatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/dao/Mybatis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/factory/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/factory/DaoFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/factory/DaoFactory2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/factory/DaoFactory2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/factory/DaoFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/factory/DaoFactoryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/services/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/services/Services.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/services/ServicesImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/services/ServicesImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dao/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dao/SimpleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/services/AccountServicesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spring/services/AccountServicesTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,17 +69,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="625349a4-6942-4368-ab4c-5723add84fc8" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\APP\idea\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="D:\APP\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\APP\maven\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -41,10 +97,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -54,7 +111,20 @@
       <recent name="C:\Users\阿才\Desktop\SR\代码\spring\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleTest.insertTest">
+  <component name="RunManager" selected="Application.APP (1)">
+    <configuration name="APP (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.APP" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.APP" />
       <module name="spring" />
@@ -68,15 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,8 +199,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleTest.insertTest" />
+        <item itemvalue="Application.APP (1)" />
         <item itemvalue="JUnit.SimpleTest.findAllTest" />
+        <item itemvalue="JUnit.SimpleTest.insertTest" />
         <item itemvalue="JUnit.AccountServicesTest.servicesTest" />
         <item itemvalue="Application.APP" />
       </list>
@@ -152,11 +221,26 @@
       <workItem from="1676336238698" duration="1416000" />
       <workItem from="1676345067330" duration="9064000" />
       <workItem from="1676508865398" duration="10321000" />
+      <workItem from="1676898467816" duration="615000" />
+      <workItem from="1676899095998" duration="688000" />
+      <workItem from="1676976366965" duration="6999000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="179" y="248" key="#SQL_Dialects" timestamp="1676511085832">
@@ -167,30 +251,36 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1676510780398" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1676336888302">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1286" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1676988396156">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1676336888302" />
-    <state width="1493" height="465" key="GridCell.Tab.0.bottom" timestamp="1676518078745">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1286" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1676988396156" />
+    <state width="3387" height="378" key="GridCell.Tab.0.bottom" timestamp="1676899787512">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1493" height="465" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
-    <state width="1493" height="465" key="GridCell.Tab.0.center" timestamp="1676518078745">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="3387" height="378" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1676899787512" />
+    <state width="3387" height="378" key="GridCell.Tab.0.center" timestamp="1676899787512">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1493" height="465" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
-    <state width="1493" height="465" key="GridCell.Tab.0.left" timestamp="1676518078745">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="3387" height="378" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1676899787512" />
+    <state width="3387" height="378" key="GridCell.Tab.0.left" timestamp="1676899787511">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1493" height="465" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
-    <state width="1493" height="465" key="GridCell.Tab.0.right" timestamp="1676518078745">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="3387" height="378" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1676899787511" />
+    <state width="3387" height="378" key="GridCell.Tab.0.right" timestamp="1676899787512">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1493" height="465" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1676518078745" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1676361828109">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="3387" height="378" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1676899787512" />
+    <state x="558" y="0" key="SettingsEditor" timestamp="1676899154466">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1676361828109" />
+    <state x="558" y="0" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1676899154466" />
     <state x="490" y="154" width="576" height="540" key="StructurePopup" timestamp="1676336810722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -199,6 +289,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="294" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1675930121826" />
+    <state x="1468" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1676898830321">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1468" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1400@0.0.3440.1400" timestamp="1676898830321" />
+    <state x="1292" y="327" key="run.anything.popup" timestamp="1676898596795">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1292" y="327" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1676898596795" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1676336614857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

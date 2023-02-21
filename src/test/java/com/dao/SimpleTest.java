@@ -25,13 +25,14 @@ public class SimpleTest {
     @Test
     public void insertTest() {
         User user = new User();
+
         user.setId(2);
         user.setName("acai");
         user.setAge(28);
 
         int i = userDao.addUser(user);
         System.out.println(i);
-        System.out.println(i);
+
     }
 
     @Test
