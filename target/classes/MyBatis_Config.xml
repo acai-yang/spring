@@ -5,7 +5,9 @@
 <configuration>
     <!-- 配置文件信息 -->
     <properties resource="jdbc.properties"/>
-
+    <typeAliases>
+        <package name=" "/>
+    </typeAliases>
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>

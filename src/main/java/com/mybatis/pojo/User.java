@@ -2,6 +2,8 @@ package com.mybatis.pojo;
 
 import lombok.*;
 
+import java.io.Serializable;
+
 /**
  * DESC
  *
@@ -13,7 +15,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class User {
+public class User implements Serializable {
     private int id;
     private String name;
     private int age;

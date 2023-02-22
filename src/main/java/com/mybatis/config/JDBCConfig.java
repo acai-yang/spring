@@ -8,16 +8,16 @@ import javax.sql.DataSource;
 
 public class JDBCConfig {
 
-    @Value("{db.driver}")
+    @Value("${driver}")
     private String driver;
 
-    @Value("{db.url}")
+    @Value("${url}")
     private String url;
 
-    @Value("{db.user}")
+    @Value("${user}")
     private String username;
 
-    @Value("{db.password}")
+    @Value("${password}")
     private String password;
 
 

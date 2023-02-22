@@ -10,4 +10,5 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("jdbc.properties")
 @Import({JDBCConfig.class,MybatisConfig.class})
 public class SpringConfig {
+
 }
