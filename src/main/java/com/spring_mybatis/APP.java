@@ -1,20 +1,19 @@
-package com.mybatis;
+package com.spring_mybatis;
 
-import com.mybatis.config.SpringConfig;
-import com.mybatis.pojo.User;
-import com.mybatis.service.UserService;
+import com.spring_mybatis.config.SpringConfig;
+import com.spring_mybatis.pojo.User;
+import com.spring_mybatis.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.io.IOException;
 import java.util.List;
 
 public class APP {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
 
-        UserService bean = context.getBean(UserService.class);
+        UserService service = context.getBean(UserService.class);
 
-        List<User> list = bean.findAll();
+        List<User> list = service.findAll();
         for (User user : list) {
             System.out.println(user);
         }

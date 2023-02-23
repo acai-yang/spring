@@ -1,6 +1,6 @@
-package com.mybatis.dao;
+package com.spring_mybatis.dao;
 
-import com.mybatis.pojo.User;
+import com.spring_mybatis.pojo.User;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;

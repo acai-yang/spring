@@ -1,4 +1,4 @@
-package com.mybatis.pojo;
+package com.spring_junit.pojo;
 
 import lombok.*;
 

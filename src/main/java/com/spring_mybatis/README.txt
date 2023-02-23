@@ -1,0 +1,4 @@
+1.编写全局配置文件
+2.编写mapper映射文件
+3.加载全局配置文件，生成SqlSessionFactory
+4.创建SqlSession，调用mapper映射文件中的SQL语句来执行CRUD操作

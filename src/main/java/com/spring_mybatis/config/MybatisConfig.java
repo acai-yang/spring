@@ -1,4 +1,4 @@
-package com.mybatis.config;
+package com.spring_mybatis.config;
 
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
@@ -21,7 +21,7 @@ public class MybatisConfig {
 
         MapperScannerConfigurer msc = new MapperScannerConfigurer();
 
-        msc.setBasePackage("com.mybatis.dao");
+        msc.setBasePackage("com.spring_mybatis.dao");
         return msc;
     }
 }

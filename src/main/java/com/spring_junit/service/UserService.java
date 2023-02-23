@@ -1,6 +1,6 @@
-package com.mybatis.service;
+package com.spring_junit.service;
 
-import com.mybatis.pojo.User;
+import com.spring_junit.pojo.User;
 
 import java.util.List;
 

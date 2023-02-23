@@ -1,8 +1,8 @@
-package com.mybatis.service.impl;
+package com.spring_mybatis.service.impl;
 
-import com.mybatis.dao.UserDao2;
-import com.mybatis.pojo.User;
-import com.mybatis.service.UserService;
+import com.spring_mybatis.dao.UserDao2;
+import com.spring_mybatis.pojo.User;
+import com.spring_mybatis.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
