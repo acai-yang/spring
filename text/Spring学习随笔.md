@@ -16,7 +16,9 @@
 	事务实用开发
 ```
 
-## 一、核心容器
+# 核心容器
+
+## 一、核心容器简介
 
 核心概念：
 
@@ -613,3 +615,136 @@ public class AccountServicesTest {
 }
 ```
 
+# AOP
+
+## 一、AOP简介
+
+性质：面向切面编程，一种编程范式。
+
+作用：不惊动原始涉及基础上，为其功能增强。
+
+spring理念：无侵入式/无入侵式
+
+**通知/切入点/连接点/切面**
+
+连接点：方法的执行。程序执行过程中的任意位置。粒度为执行性方法，抛出异常，设置变量。
+
+切入点：一个或多个待加强功能的方法的描述
+
+通知：在切入点执行的操作，共性功能
+
+通知类：通知类中可以定义多个共享逻辑（方法）
+
+切面：建立通知和切入点的对应关系
+
+![1677204103802](img/1677204103802.png)
+
+### AOP入门案例
+
+案例：测试接口执行效率
+
+mop.xml
+
+```xml
+	   <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+```
+
+通用类
+
+```java
+package com.spring_aop.aop;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+/**
+ * DESC 通知类
+ *
+ * @author YangMingCai
+ * @date 2023年02月24日 11:00
+ */
+
+@Component
+@Aspect
+public class MyAdvice {
+
+    @Pointcut("execution(void com.spring_aop.dao.Dao.update())")
+    private void pt() {
+    }
+
+    @Before("pt()")
+    public void addTime() {
+        System.out.println(System.currentTimeMillis());
+    }
+}
+```
+
+Spring配置类
+
+```java
+package com.spring_aop.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+
+/**
+ * DESC
+ *
+ * @author YangMingCai
+ * @date 2023年02月24日 10:58
+ */
+@Configuration
+@ComponentScan("com.spring_aop")
+@EnableAspectJAutoProxy
+public class SpringConfig {
+}
+```
+
+### AOP工作流程
+
+1. Spring容器启动
+2. 读取所有切面配置中的切入点
+3. 初始化bean，判定bean对应的类中方法是否匹配到任意切入点 
+   - 匹配失败，创建对象
+   - 匹配成功，创建原始对象（目标对象）的代理对象
+4. 获取bean执行方法
+   - 获取bean，调用方法并执行，完成操作
+   - 获取bean是代理对象时，根据代理对象的运行模式运行原始方法与增强内容，完成操作
+
+#### AOP核心概念
+
+目标对象：原始功能去掉共性功能的类产生的对象，这种对象是无法直接完成最终工作的
+
+代理：目标对象无法直接完成工作，需要对其进行功能回填，通过原始对象的代理对象实现
+
+Spring AOP本质：代理模式
+
+### AOP切入点表达式
+
+切入点：要进行增强的方法
+
+切入点表达式：要进行增强的方法的描述方式
+
+切入点表达式语法格式：动作关键字（访问修饰符 返回值 包.类/接口.方法名（参数）异常名）
+
+```java
+@Pointcut("execution(void com.spring_aop.dao.Dao.update())")
+```
+
+通配符
+
+```java
+@Pointcut("execution(public void com.spring_aop.dao.Dao.update())")
+@Pointcut("execution(* void com.spring_aop.dao.Dao.update())")
+@Pointcut("execution(* * com.spring_aop.dao.Dao.update())")
+@Pointcut("execution(public void com..dao.Dao.update(..))")
+```
+
+书写技巧
