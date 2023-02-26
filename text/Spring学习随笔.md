@@ -748,3 +748,25 @@ Spring AOP本质：代理模式
 ```
 
 书写技巧
+
+### AOP通知类型
+
+```java
+@Before("pt()")		//前置通知
+@After("pt()")		//后置通知
+@Around("pt()")		//环绕通知
+@AfterReturning("pt()")		//返回值后通知
+@AfterThrowing（"pt()"）	  //抛出异常后通知
+```
+
+### 案例：测量业务层接口万次执行效率
+
+需求:任意业务层接口执行均可显示其执行效率(执行时长)
+
+分析：
+
+①：业务功能：业务层接口执行前后分别记录时间，求差值得到执行效率
+
+②：通知类型选择前后均可以增强的类型——环绕通知
+
+![image-20230226193415381](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230226193415381.png)

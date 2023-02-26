@@ -1,8 +1,7 @@
 package com.spring_aop.aop;
 
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
@@ -16,13 +15,19 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class MyAdvice {
 
-    //@Pointcut("execution(void com.*..update())")
-    @Pointcut("execution(* com.spring_aop.*.*Service.save(..))")
+    @Pointcut("execution(void com.*..update())")
+    //@Pointcut("execution(* com.spring_aop.*.*Service.update(..))")
     private void pt() {
     }
 
-    @Before("pt()")
-    public void addTime() {
+    @Around("pt()")
+    public void addTime(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println(System.currentTimeMillis());
+
+        Object ret = pjp.proceed();
+        Object[] args = pjp.getArgs();
+        System.out.println(System.currentTimeMillis());
+
+
     }
 }
