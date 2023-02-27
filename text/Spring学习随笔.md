@@ -769,4 +769,65 @@ Spring AOP本质：代理模式
 
 ②：通知类型选择前后均可以增强的类型——环绕通知
 
-![image-20230226193415381](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230226193415381.png)
+### AOP总结
+
+- 概念：AOP面向切面编程，一种编程范式
+- 作用：在不惊动原始设计的基础上进行功能增强
+- 核心概念
+  - 代理：SpringAOP的核心本质是采用代理模式实现的；
+  - 连接点:在SpringAOP中，理解为任意的方法执行；
+  - 切入点:切入点表达式，疲累连接点的式子，也是具有共性功能的方法描述；
+  - 通知：若干个方法共性功能，在切入点处执行，最终体现为一个方法；
+  - 切面:描述通知与切入点的对应关系；
+  - 目标对象:被代理的原始对象称为目标对象；
+
+# Spring事务
+
+### Spring事务简介
+
+事务作用：在数据层保障一系列数据库操作同成功同失败
+
+Spring事务作用：在数据层或**业务层**保障一系列的数据库操作同成败。
+
+```java
+//步骤一：在业务层接口上添加Spring事务管理
+public interface AccountService {
+    @Transactional
+    public void transfer(String out, String in, Double money);
+}
+
+//步骤二：设置事务管理器
+ @Bean
+    public PlatformTransactionManager transactionManager(DataSource dataSource) {
+        DataSourceTransactionManager ptm = new DataSourceTransactionManager();
+        ptm.setDataSource(dataSource);
+        return ptm;
+    }
+
+//步骤三：开启注解事务驱动
+@Configuration
+@ComponentScan("com.spring_transaction")
+@PropertySource("jdbc.properties")
+@Import({JDBCConfig.class, MybatisConfig.class})
+@EnableTransactionManagement
+public class SpringConfig {}
+```
+
+### Spring事务角色
+
+#### 事务管理员
+
+：发起事务方，在Spring中通常指代业务层开启事务的方法
+
+#### 事务协调员
+
+：加入事务方，在Spring中通常指代数据层方法，也可以是业务层方法；
+
+### Spring事务属性
+
+#### 事务配置
+
+#### 案例
+
+#### 事务传播行为
+

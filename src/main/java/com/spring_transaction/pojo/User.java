@@ -1,4 +1,4 @@
-package com.spring_mybatis.pojo;
+package com.spring_transaction.pojo;
 
 import lombok.*;
 
@@ -18,5 +18,5 @@ import java.io.Serializable;
 public class User implements Serializable {
     private int id;
     private String name;
-    private Double money;
+    private double money;
 }

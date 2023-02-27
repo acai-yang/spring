@@ -12,6 +12,7 @@ import org.springframework.beans.factory.InitializingBean;
 public class DaoImp2 implements Dao, InitializingBean, DisposableBean {
 
 
+    @Override
     public void fun() {
         System.out.println("DaoImp2#fun()");
     }
@@ -24,10 +25,12 @@ public class DaoImp2 implements Dao, InitializingBean, DisposableBean {
         System.out.println("DaoImp2#claose()");
     }
 
+    @Override
     public void destroy() throws Exception {
         System.out.println("close");
     }
 
+    @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println("init");
     }
