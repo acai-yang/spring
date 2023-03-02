@@ -831,3 +831,86 @@ public class SpringConfig {}
 
 #### 事务传播行为
 
+# SpringMVC
+
+## SpringMVC简介
+
+步骤一：依赖导入
+
+```xml
+<dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.10.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <port>80</port>
+                    <path>/</path>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+```
+
+步骤二：创建SpringMVC控制器类（等同于Servlet功能）
+
+```java
+@Controller
+public class UserController {
+    //设置当前操作的访问路径
+    @RequestMapping("/save")
+    @ResponseBody //设置返回值类型
+    public String save() {
+        System.out.println("user save ...");
+        return "{'module':'springmvc'}";
+    }
+}
+```
+
+步骤三：初始化SpringMVC环境（同Spring环境），设定SpringMVC加载对应的bean
+
+```java
+@Configuration
+@ComponentScan("com.acai.controller")
+public class SpringMvcConfig {
+}
+```
+
+步骤四：初始化Servlet容器，加载SpringMVC环境，并设置SpringMVC技术的请求
+
+```java
+//定义一个servlet容器启动配置类，在里面配置spring的配置
+public class ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
+    //加载springmvc容器配置
+    @Override
+    protected WebApplicationContext createServletApplicationContext() {
+        AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
+        ctx.register(SpringMvcConfig.class);
+        return ctx;
+    }    //设置那些请求归属springmvc处理
+    @Override
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
+    }
+    //加载spring容器配置
+    @Override
+    protected WebApplicationContext createRootApplicationContext() {
+        return null;
+    }
+}
+```
+
